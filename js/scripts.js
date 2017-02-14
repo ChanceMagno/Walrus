@@ -1,6 +1,19 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#walrus-hidden").toggle();
-    $("#walrus-showing").slideToggle();
-  });
+  $("#js").click(function() {
+    $("#Djs").toggle();
+    //$("#Ejs").toggle();
+    });
+
+  $("#operators").click(function() {
+    $("#Doperators").toggle();
+    });
+
+  $("#Variables").click(function() {
+    $("#Dvariables").toggle();
+    });
+
+  $("#variableNamingConventions").click(function() {
+    $("#DvariableNamingConventions").toggle();
+    });
+
 });
